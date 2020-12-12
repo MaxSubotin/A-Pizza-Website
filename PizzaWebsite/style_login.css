@@ -1,0 +1,52 @@
+html {
+  position:relative;
+  min-height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #e2dbdb;
+  margin: 0;
+  padding: 0;
+}
+
+h1.header {
+  text-align: center;
+  font-size: 3rem;
+}
+
+div.form {
+display: flex;
+justify-content: center;
+
+}
+
+div.form > form.order_info{
+margin-top: 100px;
+
+}
+
+div.form > form.order_info > div.input > input {
+display: flex;
+flex-direction:column;
+width: 250px;
+}
+
+div.form > form.order_info > div.input_2 > input {
+  width: 100px;
+  margin-top: 10px;
+}
+
+div.input {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  padding-top: 2rem;
+}
+
+div.input_2 {
+  display: flex;
+  justify-content: center;
+
+}
